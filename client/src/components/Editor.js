@@ -36,7 +36,7 @@ int main() {
 
   useEffect(() => {
     // socketRef.current = io.connect("http://localhost:5000");
-    socketRef.current = io.connect('https://lit-stream-68135.herokuapp.com/');
+    socketRef.current = io.connect('https://e-hire.herokuapp.com/');
 
     socketRef.current.emit('join-room', roomId);
     socketRef.current.on('codeChanged1', (code) => {
