@@ -104,13 +104,18 @@ const useStyles = makeStyles((theme) => ({
     background: "#222539",
     flexGrow: 1,
   },
+  cardContainer1: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-around'
+  },
   card: {
     border: '1px solid white',
     borderRadius: '10px',
-   
+    maxWidth: '350px',
+    height: '300px',
     marginRight: '20px',
   }
-
 }));
 
 export default useStyles;
